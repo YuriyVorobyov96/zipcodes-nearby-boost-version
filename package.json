@@ -1,0 +1,78 @@
+{
+  "_from": "zipcodes-nearby@^0.1.4",
+  "_id": "zipcodes-nearby@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-FlbhyN5r4NMIO5R01shz5P86F+QUL9rtxg0iBK0btcgIJygdyybs2QOTFKknsY81tpLV4B/tZG8ZBcZBI0SOcQ==",
+  "_location": "/zipcodes-nearby",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "zipcodes-nearby@^0.1.4",
+    "name": "zipcodes-nearby",
+    "escapedName": "zipcodes-nearby",
+    "rawSpec": "^0.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zipcodes-nearby/-/zipcodes-nearby-0.1.4.tgz",
+  "_shasum": "e9ecb6b3a160807cf82c69abe08ef35f313a9d97",
+  "_spec": "zipcodes-nearby@^0.1.4",
+  "_where": "/Users/edcastdunice/Documents/Workspace/BidBash",
+  "author": {
+    "name": "Quoc Vu",
+    "email": "darthvu@gmail.com",
+    "url": "https://github.com/quocvu"
+  },
+  "bugs": {
+    "url": "https://github.com/quocvu/zipcodes-nearby/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "geolib": "^2.0.24",
+    "lodash": "^4.17.5"
+  },
+  "deprecated": false,
+  "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "coveralls": "^3.0.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "should": "^13.2.1"
+  },
+  "homepage": "https://github.com/quocvu/zipcodes-nearby#readme",
+  "keywords": [
+    "zip",
+    "code",
+    "zipcode",
+    "radius",
+    "distance",
+    "near by",
+    "longitude",
+    "latitude"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "zipcodes-nearby",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocvu/zipcodes-nearby.git"
+  },
+  "scripts": {
+    "cover": "NODE_ENV=test istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "test": "NODE_ENV=test mocha"
+  },
+  "version": "0.1.4"
+}
