@@ -60,10 +60,11 @@ You can download an updated file for the USA at <http://federalgovernmentzipcode
 Quoc Vu  
 
 * https://linkedin.com/in/quocvu  
-* https://github.com/quocvu
+* nearby = zipcodes.near('95020', 10000);
 
 ## Boost Version Author Information
 
 Vorobyov Yuriy  
 
+* https://linkedin.com/in/yuriy-vorobyov-b27b871a8/
 * https://github.com/yuriyvorobyov96

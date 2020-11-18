@@ -1,26 +1,26 @@
 {
-  "_from": "zipcodes-nearby@^0.1.4",
-  "_id": "zipcodes-nearby@0.1.4",
+  "_from": "zipcodes-nearby-boost@^1.0.0",
+  "_id": "zipcodes-nearby-boost@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-FlbhyN5r4NMIO5R01shz5P86F+QUL9rtxg0iBK0btcgIJygdyybs2QOTFKknsY81tpLV4B/tZG8ZBcZBI0SOcQ==",
-  "_location": "/zipcodes-nearby",
+  "_location": "/zipcodes-nearby-boost",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "zipcodes-nearby@^0.1.4",
-    "name": "zipcodes-nearby",
-    "escapedName": "zipcodes-nearby",
-    "rawSpec": "^0.1.4",
+    "raw": "zipcodes-nearby-boost@^1.0.0",
+    "name": "zipcodes-nearby-boost",
+    "escapedName": "zipcodes-nearby-boost",
+    "rawSpec": "^1.0.0",
     "saveSpec": null,
-    "fetchSpec": "^0.1.4"
+    "fetchSpec": "^1.0.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/zipcodes-nearby/-/zipcodes-nearby-0.1.4.tgz",
+  "_resolved": "https://registry.npmjs.org/zipcodes-nearby/-/zipcodes-nearby-boost-1.0.0.tgz",
   "_shasum": "e9ecb6b3a160807cf82c69abe08ef35f313a9d97",
-  "_spec": "zipcodes-nearby@^0.1.4",
+  "_spec": "zipcodes-nearby-boost@^1.0.0",
   "_where": "/Users/edcastdunice/Documents/Workspace/BidBash",
   "author": {
     "name": "Quoc Vu",
@@ -32,9 +32,9 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "fast-csv": "^2.4.1",
+    "fast-csv": "^2.5.0",
     "geolib": "^2.0.24",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.20"
   },
   "deprecated": false,
   "description": "Find a list of zipcodes within a certain distance of a given zipcode.",

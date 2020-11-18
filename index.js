@@ -1,3 +1,5 @@
+const path = require('path');
+
 const CONVERT = 1609.34;
 
 const initGeo = async(filepath, options) => {
@@ -85,15 +87,15 @@ const initGeo = async(filepath, options) => {
 
 let geo;
 
-initGeo(path.join(__dirname, '../zipcodes.csv'))
+initGeo(path.join(__dirname, './zipcodes.csv'))
   .then(created => {
     geo = created;
   });
 
 module.exports = {
-  async getZipCodes(zip, area) {
+  async near(zip, area) {
     if (!geo) {
-      throw new Error('sorry');
+      geo = await initGeo(path.join(__dirname, './zipcodes.csv'))  
     }
 
     const nearby = await geo.near(zip, area);
