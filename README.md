@@ -1,4 +1,3 @@
-[![Build Status](http://img.shields.io/travis/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://travis-ci.org/quocvu/zipcodes-nearby)
 [![NPM Downloads](https://img.shields.io/npm/dt/zipcodes-nearby-boost.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby-boost)
 [![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby-boost.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby-boost)
 [![License](https://img.shields.io/github/license/YuriyVorobyov96/zipcodes-nearby-boost-version.svg?style=for-the-badge)](https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/blob/master/LICENSE)
