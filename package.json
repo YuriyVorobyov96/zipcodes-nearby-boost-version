@@ -66,12 +66,7 @@
   "name": "zipcodes-nearby",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quocvu/zipcodes-nearby.git"
+    "url": "git+https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version"
   },
-  "scripts": {
-    "cover": "NODE_ENV=test istanbul cover _mocha",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
-    "test": "NODE_ENV=test mocha"
-  },
-  "version": "0.1.4"
+  "version": "1.0.0"
 }
