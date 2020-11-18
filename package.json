@@ -23,12 +23,11 @@
   "_spec": "zipcodes-nearby-boost@^1.0.0",
   "_where": "/Users/edcastdunice/Documents/Workspace/BidBash",
   "author": {
-    "name": "Quoc Vu",
-    "email": "darthvu@gmail.com",
-    "url": "https://github.com/quocvu"
+    "name": "Yuriy Vorobyov",
+    "url": "https://github.com/YuriyVorobyov96"
   },
   "bugs": {
-    "url": "https://github.com/quocvu/zipcodes-nearby/issues"
+    "url": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -51,7 +50,7 @@
     "mocha-lcov-reporter": "^1.3.0",
     "should": "^13.2.1"
   },
-  "homepage": "https://github.com/quocvu/zipcodes-nearby#readme",
+  "homepage": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version#readme",
   "keywords": [
     "zip",
     "code",

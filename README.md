@@ -1,9 +1,7 @@
 [![Build Status](http://img.shields.io/travis/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://travis-ci.org/quocvu/zipcodes-nearby)
-[![Coverage Status](https://img.shields.io/coveralls/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://coveralls.io/github/quocvu/zipcodes-nearby)
-[![NPM Downloads](https://img.shields.io/npm/dt/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
-[![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
-[![Dependencies](https://img.shields.io/david/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://david-dm.org/quocvu/zipcodes-nearby)
-[![License](https://img.shields.io/github/license/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://github.com/quocvu/zipcodes-nearby/blob/master/LICENSE)
+[![NPM Downloads](https://img.shields.io/npm/dt/zipcodes-nearby-boost.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby-boost)
+[![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby-boost.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby-boost)
+[![License](https://img.shields.io/github/license/quocvu/zipcodes-nearby-boost.svg?style=for-the-badge)](https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/blob/master/LICENSE)
 
 # Zipcodes near by
 
@@ -11,7 +9,7 @@ Find a list of zipcodes within a certain distance of a given zipcode.
 
 ## Installation
 
-    npm install zipcodes-nearby
+    npm install zipcodes-nearby-boost
 
 ## Usage
 
@@ -28,16 +26,13 @@ The method `near(zipcode|coordinates, distance[, options])` takes 2 to 3 argumen
 For examples:
 
 ```
-var zipcodes = require('zipcodes-nearby');
+const zipcodes = require('zipcodes-nearby-boost');
 
 // find zipcodes within 10km from 95020 using the default datafile "zipcodes.csv"
-nearby = zipcodes.near('95020', 10000);
+nearby = await zipcodes.near('95020', 10000);
 
 // find zipcodes within 10km from a location given by geo-coordinates using the default datafile "zipcodes.csv"
-nearby = zipcodes.near({ longitude: 78.8, latitude: 48.3 }, 10000);
-
-// find zipcodes within 10km from 95020 using the datafile "newzipcodes.csv"
-nearby = zipcodes.near('95020', 10000, { datafile: 'newzipcodes.csv' });
+nearby = await zipcodes.near({ longitude: 78.8, latitude: 48.3 }, 10000);
 
 ```
 
@@ -52,7 +47,7 @@ You can download an updated file for the USA at <http://federalgovernmentzipcode
 
 ## License
 
-[MIT](https://github.com/quocvu/zipcodes-nearby/blob/master/LICENSE.txt)
+[MIT](https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/blob/master/LICENSE)
 
 
 ## Author Information
@@ -60,7 +55,7 @@ You can download an updated file for the USA at <http://federalgovernmentzipcode
 Quoc Vu  
 
 * https://linkedin.com/in/quocvu  
-* nearby = zipcodes.near('95020', 10000);
+* https://github.com/quocvu
 
 ## Boost Version Author Information
 
