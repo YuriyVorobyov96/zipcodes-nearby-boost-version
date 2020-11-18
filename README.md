@@ -2,7 +2,7 @@
 [![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby-boost.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby-boost)
 [![License](https://img.shields.io/github/license/YuriyVorobyov96/zipcodes-nearby-boost-version.svg?style=for-the-badge)](https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/blob/master/LICENSE)
 
-# Zipcodes near by
+# Zipcodes near by (Boosted version)
 
 Find a list of zipcodes within a certain distance of a given zipcode.
 

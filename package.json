@@ -1,42 +1,13 @@
 {
-  "_from": "zipcodes-nearby-boost@^1.0.0",
-  "_id": "zipcodes-nearby-boost@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-FlbhyN5r4NMIO5R01shz5P86F+QUL9rtxg0iBK0btcgIJygdyybs2QOTFKknsY81tpLV4B/tZG8ZBcZBI0SOcQ==",
-  "_location": "/zipcodes-nearby-boost",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "zipcodes-nearby-boost@^1.0.0",
-    "name": "zipcodes-nearby-boost",
-    "escapedName": "zipcodes-nearby-boost",
-    "rawSpec": "^1.0.0",
-    "saveSpec": null,
-    "fetchSpec": "^1.0.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/zipcodes-nearby/-/zipcodes-nearby-boost-1.0.0.tgz",
-  "_shasum": "e9ecb6b3a160807cf82c69abe08ef35f313a9d97",
-  "_spec": "zipcodes-nearby-boost@^1.0.0",
-  "_where": "/Users/edcastdunice/Documents/Workspace/BidBash",
-  "author": {
-    "name": "Yuriy Vorobyov",
-    "url": "https://github.com/YuriyVorobyov96"
-  },
-  "bugs": {
-    "url": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/issues"
-  },
-  "bundleDependencies": false,
+  "name": "zipcodes-nearby-boost",
+  "version": "1.0.1",
+  "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
+  "main": "index.js",
   "dependencies": {
     "fast-csv": "^2.5.0",
     "geolib": "^2.0.24",
     "lodash": "^4.17.20"
   },
-  "deprecated": false,
-  "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "coveralls": "^3.0.0",
@@ -50,23 +21,27 @@
     "mocha-lcov-reporter": "^1.3.0",
     "should": "^13.2.1"
   },
-  "homepage": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version.git"
+  },
   "keywords": [
+    "zipcodes",
+    "javascript",
     "zip",
-    "code",
     "zipcode",
     "radius",
     "distance",
-    "near by",
     "longitude",
     "latitude"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "zipcodes-nearby",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version"
+  "author": {
+    "name": "Yuriy Vorobyov",
+    "url": "https://github.com/YuriyVorobyov96"
   },
-  "version": "1.0.1"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version/issues"
+  },
+  "homepage": "https://github.com/YuriyVorobyov96/zipcodes-nearby-boost-version#readme"
 }
